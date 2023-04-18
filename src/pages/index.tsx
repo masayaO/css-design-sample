@@ -1,7 +1,8 @@
 import { FC } from 'react';
+import GradationText from '@/shared/components/GradationText';
 
 const Page: FC = () => {
-  return <div>Hello</div>;
+  return <GradationText text="Gradation Text" />;
 };
 
 export default Page;
